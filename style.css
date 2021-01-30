@@ -1,0 +1,74 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+#statsContainer {
+    font-size: 2rem;
+    width: 600px;
+    padding: 30px;
+    text-align: center;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
+
+#peopleModule {
+    /* border: 1px solid green; */
+    height: 300px;
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#peopleModule h1 {
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid blue; */
+}
+
+#peopleModule input, #peopleModule button {
+    width: 30%;
+    padding: 10px 0;
+}
+
+#input {
+    text-indent: 10px;
+}
+
+#people {
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#people li {
+    position: relative;
+    padding: 20px 40px;
+    margin: 10px;
+    border: 2px solid orange;
+    background-color: rgba(204, 139, 17, 0.603);
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    list-style-type: none;
+}
+
+#people li i {
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
